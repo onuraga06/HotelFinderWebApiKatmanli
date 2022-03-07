@@ -1,0 +1,30 @@
+﻿@model IEnumerable<HotelFinderUi.Models.Hostel>
+@{
+	ViewData["Title"] = "Home Page";
+}
+<a href="/Home/Create" class="btn btn-success">Ekle</a>
+<table class="table table-active">
+	<thead>
+		<tr class="table table-secondary">
+			<th>ID </th>
+			<th>Name </th>
+			<th>City </th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Id</td>
+				<td>@item.Name</td>
+				<td>@item.City</td>
+				<td> <a href="/Home/Details/@item.Id" class="btn btn-success">Detay</a></td>
+				<td> <a href="/Home/Edit/@item.Id" class="btn btn-primary">Güncelle</a></td>
+				<td> <a href="/Home/Delete/@item.Id" class="btn btn-danger">Sil</a></td>
+			</tr>
+		}
+	</tbody>
+</table>

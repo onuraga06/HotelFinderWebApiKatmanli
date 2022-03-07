@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinderEntities", "Hote
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinderDataAccess", "HotelFinderDataAccess\HotelFinderDataAccess.csproj", "{D87326E8-1FC2-4490-B334-9BA13BAF99D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderBusiness", "HotelFinderBusiness\HotelFinderBusiness.csproj", "{44E6E24B-EDCF-4047-ADC0-41F3B125643D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinderBusiness", "HotelFinderBusiness\HotelFinderBusiness.csproj", "{44E6E24B-EDCF-4047-ADC0-41F3B125643D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinderWebApi", "HotelFinderWebApi\HotelFinderWebApi.csproj", "{F7671A4D-3D94-43BB-98BC-1DC285541D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinderWebApi", "HotelFinderWebApi\HotelFinderWebApi.csproj", "{F7671A4D-3D94-43BB-98BC-1DC285541D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
